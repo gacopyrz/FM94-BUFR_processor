@@ -1,7 +1,10 @@
 # FM94-BUFR_processor
-Scripts for FM94-BUFR files (meteorological *.buf) processing
-Źródłem pochodzenia danych jest Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy.
+Scripts for FM94-BUFR files (meteorological *.buf) processing.
+
+### Źródłem pochodzenia danych jest Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy.
 The source data were taken from Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy (IMGW-PIB).
+
+### Dane Instytutu Meteorologii i Gospodarki Wodnej – Państwowego Instytutu Badawczego zostały przetworzone.
 The data taken from IMGW-PIB were been preprocessed.
 
 ## Description:
