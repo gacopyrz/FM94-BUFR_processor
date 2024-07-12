@@ -5,7 +5,7 @@ Scripts for FM94-BUFR files (meteorological *.buf) processing.
 The source data were taken from Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy (IMGW-PIB).
 
 ### Dane Instytutu Meteorologii i Gospodarki Wodnej – Państwowego Instytutu Badawczego zostały przetworzone.
-The data taken from IMGW-PIB were been preprocessed.
+The data taken from IMGW-PIB has been preprocessed.
 
 ## Description:
 The program reads data from FM94-BUFR type files (*.buf) according to [Manual_on_Codes].
