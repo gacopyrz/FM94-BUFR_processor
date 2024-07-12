@@ -36,12 +36,12 @@ OCTET_SIZE=8 # 1 octet = 8 bits = 1 byte
 SECTION_0_SIZE=8 # section 0 size in octets
 SECTION_0_BITSIZE=SECTION_0_SIZE*OCTET_SIZE # section 0 size in bits
 
-file_path="/home/mirek/Meteorologia/dane/24_07_12/BRZ/"
+file_path="" # here place your local filepath
 if len(sys.argv)>1:
     j=sys.argv[1] # file name as initial argument
     file_name=f'{j}'
 else:
-    file_name=f'./dane/current(ref).buf' # if no arguments are given for program call
+    file_name=f'./dane/sample.buf' # if no arguments are given for program call
 
 f=open(file_path+file_name,"rb")
 
@@ -237,7 +237,7 @@ for row in range(total_number_of_rows):
 rainfall_matrix=np.array(table_of_values)
 rainfall_matrix[rainfall_matrix == 255] = 0
 rainfall_matrix=np.reshape(rainfall_matrix, (-1, 400))# reshape matrix from 1D to 400 columns x 400 rows
-plt.imsave("/home/mirek/Meteorologia/png/2024_07_12/"+file_name[:-3]+"png",rainfall_matrix*25, cmap="Blues",vmin=0,vmax=255,dpi=100)
+plt.imsave("/home/filepath_to_save_png_files"+file_name[:-3]+"png",rainfall_matrix*25, cmap="Blues",vmin=0,vmax=255,dpi=100)
 
 
 
